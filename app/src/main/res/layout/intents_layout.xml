@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00AAFF">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/abrir_web"
+        android:id="@+id/buttonWeb"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/marcar_telefono"
+        android:id="@+id/buttonTelefono"
+        android:layout_below="@+id/buttonWeb"
+        android:layout_alignRight="@+id/buttonLlamada"
+        android:layout_alignEnd="@+id/buttonLlamada"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hacer_llamada"
+        android:id="@+id/buttonLlamada"
+        android:layout_below="@+id/buttonTelefono"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/añadir_contacto"
+        android:id="@+id/buttonContactos"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/alarma"
+        android:id="@+id/buttonAlarma"
+        android:layout_alignTop="@+id/buttonContactos"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enviar_correo"
+        android:id="@+id/buttonCorreo"
+        android:layout_below="@+id/buttonMapa"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hacer_foto"
+        android:id="@+id/buttonFoto"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/buttonContactos"
+        android:layout_alignRight="@+id/buttonContactos"
+        android:layout_alignEnd="@+id/buttonContactos" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hacer_video"
+        android:id="@+id/buttonVideo"
+        android:layout_alignTop="@+id/buttonFoto"
+        android:layout_alignLeft="@+id/buttonAlarma"
+        android:layout_alignStart="@+id/buttonAlarma" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mostrar_mapa"
+        android:id="@+id/buttonMapa"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/buttonFoto"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/compartir"
+        android:id="@+id/buttonCompartir"
+        android:layout_alignTop="@+id/buttonWeb"
+        android:layout_alignLeft="@+id/buttonVideo"
+        android:layout_alignStart="@+id/buttonVideo" />
+
+</RelativeLayout>

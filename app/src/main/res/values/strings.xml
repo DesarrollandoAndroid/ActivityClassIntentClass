@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EjemploActivityClass&amp;IntentClass</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- activity_main -->
+    <string name="rellenar_datos">Rellenar Datos Implicit Intent</string>
+    <string name="intent">Usando Intents</string>
+
+    <!-- implicit_layout -->
+    <string name="nombre">Introduce tu nombre</string>
+    <string name="apellidos">Introduce tus apellidos</string>
+    <string name="enviar_datos">Enviar Resultados</string>
+
+    <!-- intents_layout -->
+    <string name="abrir_web">Abrir Web</string>
+    <string name="marcar_telefono">Marcar número teléfono</string>
+    <string name="hacer_llamada">Hacer llamada telefónica</string>
+    <string name="añadir_contacto">Añadir un contacto</string>
+    <string name="alarma">Activar alarma</string>
+    <string name="enviar_correo">Enviar un correo</string>
+    <string name="mostrar_mapa">Mostrar coordenada en Maps</string>
+    <string name="hacer_foto">Hacer una foto</string>
+    <string name="hacer_video">Grabar un video</string>
+    <string name="compartir">Compartir</string>
+
+    <!-- intentsActivity -->
+    <string name="desarrollandoAndroid">"https://desarrollandoAndroid.wordpress.com"</string>
+    <string name="llamarTelefono">"123456789"</string>
+    <string name="correo">"desarrollando.android2014@gmail.com</string>
+    <string name="dudas">"Dudas en el ejercicio práctico: Activity Class e Intent Class"</string>
+    <string name="enviar">"Enviar email..."</string>
+    <string name="coordenadas">"geo:40.0703925,-2.1374161999999615"</string>
+
+</resources>
